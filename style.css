@@ -1,0 +1,277 @@
+*{
+    font-family: "Poppins";
+    
+    
+}
+
+body{
+    margin: 0;
+    padding: 0;
+    
+}
+
+.c1{
+    display: flex;
+    justify-content: center;
+}
+
+header{
+    padding: auto;
+    background-color: rgba(31, 91, 154, 0.7);
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    
+    margin: 20 auto;
+    border-radius: 2px;
+    justify-content: space-between;
+    padding: auto;
+    
+    
+
+}
+
+h3.logo{
+  display: flex ;
+    
+  font-size: 26px;
+  font-family: "BBH Bartle";
+  align-items: center;
+  margin-left: 9vh;
+  color: white;
+}
+
+    
+
+header ul{
+    color: wheat;
+    text-decoration: none;
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+    gap: 1.5rem;
+    margin-right: 75px;
+    padding: 0;
+    align-items: center;
+    
+
+
+}
+
+ul li{
+    color: whitesmoke;
+    font-weight: 400;
+    justify-content: space-between;
+
+}
+
+header a {
+  text-decoration: none;
+  color: wheat;
+  font-weight: 500;
+
+}
+
+header a:hover {
+  opacity: 0.8;
+}
+
+.awesome{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+   
+    background-color: rgb(42, 104, 186);
+    height: 600px;
+    align-items: center;
+    
+    margin: 0;
+}
+
+
+
+h1.awesometext{
+    font-size: 58px;
+    color: aliceblue;
+    margin-bottom: 0px;
+}
+
+h4{
+    margin-top: 5px;
+    color: aliceblue;
+    font-weight: 400;
+}
+
+.b1{
+    margin-top: 25px;
+    color: rgb(221, 203, 203);
+    background-color: rgb(0, 145, 255);
+    padding: 20px 50px;
+    border-radius: 20px;
+    /* margin-left: 20%; */
+    font-weight: 600;
+    font-size: 16px;
+    color: white;
+    border-color: rgb(3, 87, 161);
+    border-width: 4px;
+    border-style: solid;
+    transition: 0.2s ease-in-out;
+    
+}
+
+.b1:hover{
+    color: #cfd0d3;
+    font-weight: 800;
+    transition: 0.2s ease-in-out;
+    padding: 30px 75px;
+    font-size: 24px;
+    border-color: aliceblue;
+}
+.imageplaceholder{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.left,
+.imageplaceholder {
+  flex: 1;
+}
+
+.left{
+    margin-left: 8%;
+}
+
+.b2 {
+  background-color: #9ca3af;
+  border: none;
+  padding: 60px 120px;
+  color: white;
+  font-size: 16px;
+}
+
+.textinfo{
+
+    text-align: center;
+    font-size: 24px;
+    
+}
+.textinfo{
+    color: rgb(28, 118, 198);
+}
+.cardholder{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 60%;
+    margin: 40px auto;
+}
+
+.card{
+    text-align: center;
+    width: 170px;
+    
+    
+
+}
+
+
+.randombutton{
+    padding: 50px;
+    border: 2px solid rgb(29, 119, 188);
+    border-radius: 17px;
+    color: white;
+    margin-bottom: 20px;
+}
+
+.quote {
+  background-color: #e5e7eb;
+  padding: 60px 0;
+}
+
+.quote-content {
+  max-width: 900px;
+  margin: 0 auto;
+}
+
+.quote-text {
+  font-size: 32px;
+  font-style: italic;
+  color: #374151;
+  font-weight: 300;
+}
+
+.quote-author {
+  text-align: right;
+  margin-top: 20px;
+  font-weight: 700;
+  color: #111827;
+}
+
+.action{
+    height: 400px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.actioncontent{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  background-color: rgb(55, 142, 219);
+  width: 75%;
+  
+  padding: 80px 60px;
+  border-radius: 12px;
+}
+
+.actionheader{
+    color: white;
+    font-size: 36px;
+    margin: 3px;
+}
+
+.actionbody{
+    color: white;
+    font-weight: 400;
+    margin: 5px;
+}
+
+.actionbutton {
+  background: transparent;
+  color: white;
+  border: 2px solid white;
+  padding: 10px 24px;
+  border-radius: 8px;
+  font-weight: 600;
+  cursor: pointer;
+  margin-right: 30px;
+  font-size: 14.5px;
+  transition: 0.3s ease-in-out;
+}
+
+.actionbutton:hover{
+    background-color: white;
+    color: rgb(55, 142, 219);
+    border: 2px solid rgb(55, 142, 219);
+    transition: 0.3s ease-in-out;
+    font-size: 18px;
+    border-radius: 20px;
+}
+
+.footer{
+    display: flex;
+    padding: 25px;
+    justify-content: center;
+    background-color: #111827;
+
+}
+
+.footerbody{
+    color: white;
+    font-size: 22px;
+    font-weight: 500;
+}
+
